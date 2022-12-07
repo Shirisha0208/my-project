@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    margin-left: 15px;margin-top: 20px;
+}
+
+
+
+.box-1{
+    height: 35rem;
+    width:35rem;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+   background-image: url(helpcenter.png);
+    
+}
+
+.box-2{
+    height: 25rem;
+    width: 23rem;
+    background-color: aliceblue;
+   position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+
+
+input{
+    margin-top: 1rem;
+    border: none;
+    padding: 10px;
+    width: 90%;
+    margin-left: 8px;
+    border-bottom: 2px solid #000;
+    opacity: 0.5;
+    outline: none;
+    background: none;
+}
+
+#text{
+    margin-left: 70px;
+    padding-top: 20px;
+}
+
+.main a {
+    text-decoration: none;
+    color: #000;
+    opacity: 0.5;
+}
+
+.btns-div{
+    display: flex;
+    /* float: left; */
+}
+.btn{
+    height: 35px;
+    width:50%;
+    /* border:1px solid; */
+    margin-top: 166px;
+    background-color:rgb(212, 206, 206);
+    cursor: pointer;
+    /* text-align: center; */
+    /* float: left; */
+    
+}
+.btn:hover{
+    background-color: rgb(41, 41, 49);
+    color: rgb(160, 156, 156);
+    
+}
+
+.regester{
+    float: left;
+    margin-top: 7px;
+    margin-left: 6px;
+    /* font-size: ; */
+}
+
+
+
+.singin{
+    float: right;
+    margin-top: 7px;
+    margin-right: 6px;
+
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    form {
+      width: 100%;
+    }
+  }
+
+
+
+
+
+  
+   
+
